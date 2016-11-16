@@ -1,22 +1,22 @@
 
 html, body {
-    background-color: #000000;
-    color: #00e600;
+    background-color: #f3f3f2;
+    color: #17184b;
     margin: 0 auto;
     padding: 0;
     width: 500px;
 }
 a:link {
-    color: #00e600;
+    color: #17184b;
 }
 a:visited {
-    color: #00e600;
+    color: #17184b;
 }
 a:hover {
-    color: #00e600;
+    color: #17184b;
 }
 a:active {
-    color: #00e600;
+    color: #17184b;
 }
 p {
     margin: 0;
@@ -27,6 +27,7 @@ ol, ul {
 }
 span {
     display: inline-block;
+    font-weight: bold;
     width: 9em;
 }
 .tabs {
@@ -36,21 +37,22 @@ span {
 }
 .tabs li {
     float: left;
-    margin-right: 0px;
+    margin-right: 0;
 }
 .tabs a {
-    background: #eee none repeat scroll 0 0;
-    color: #000000;
+    background: #e5e4e6 none repeat scroll 0 0;
+    color: #5a5359;
     display: block;
-    padding: 20px 10px;
+    font-weight: bold;
+    padding: 20px 15px;
     text-decoration: none;
 }
 .tabs li.active a, .tabs a:hover {
-    background: #87ceeb none repeat scroll 0 0;
-    color: #000000;
+    background: #a0d8ef none repeat scroll 0 0;
+    color: #5a5359;
 }
 .tab_content {
-    border: 0 solid #ccc;
+    border: 0 solid #e5e4e6;
     margin-top: 20px;
     padding: 9px;
 }
@@ -59,4 +61,31 @@ span {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+.nameText p {
+    color: #274a78;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+    top: -100px;
+}
+.titleText p {
+    color: #274a78;
+    font-weight: bold;
+    text-align: center;
+}
+#linkButton {
+    background-color: #89c3eb;
+    border-radius: 25px;
+    color: #f8fbf8;
+    font-size: 1.25em;
+    font-weight: bold;
+    margin: 0 9px;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    width: 150px;
+}
+#linkButton:hover {
+    background-color: #007bbb;
 }
