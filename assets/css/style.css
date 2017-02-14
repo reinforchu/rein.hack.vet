@@ -5,7 +5,7 @@ html, body {
     color: #17184b;
     margin: 0 auto;
     padding: 0;
-    width: 500px;
+    width: 610px;
 }
 a:link {
     color: #17184b;
@@ -56,25 +56,32 @@ span {
 }
 .tab_content {
     border: 0 solid #e5e4e6;
+    left: 50px;
     margin-top: 20px;
     padding: 9px;
+    position: relative;
 }
 .circleImage img {
     border-radius: 30px;
     display: block;
+    left: 20px;
     margin-left: auto;
     margin-right: auto;
+    position: relative;
 }
 .nameText p {
     color: #274a78;
     font-size: 1.5em;
     font-weight: bold;
+    left: -30px;
+    position: relative;
     text-align: center;
-    top: -100px;
 }
 .titleText p {
     color: #274a78;
     font-weight: bold;
+    left: -30px;
+    position: relative;
     text-align: center;
 }
 #linkButton {
@@ -83,7 +90,7 @@ span {
     color: #f8fbf8;
     font-size: 1.25em;
     font-weight: bold;
-    margin: 0 8px;
+    margin: 0 13px;
     padding: 15px;
     text-align: center;
     text-decoration: none;
