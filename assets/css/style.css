@@ -5,7 +5,7 @@ html, body {
     color: #17184b;
     margin: 0 auto;
     padding: 0;
-    width: 610px;
+    width: 510px;
 }
 a:link {
     color: #17184b;
@@ -90,7 +90,7 @@ span {
     color: #f8fbf8;
     font-size: 1.25em;
     font-weight: bold;
-    margin: 0 13px;
+    margin: 0 2px;
     padding: 15px;
     text-align: center;
     text-decoration: none;
